@@ -11,6 +11,7 @@ def Mult(num1,num2):
 
 def Div(num1,num2):
 	if(num2==0):
-		return 'Div by 0 Not possible'
+		print('Div by 0 Not possible')
+		return "Error"
 	return num1/num2
 
